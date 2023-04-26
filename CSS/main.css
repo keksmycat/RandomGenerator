@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(97, 23, 167);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.container{
+    background-color: #fff;
+    padding-top: 30px;
+    padding: 30px;
+    border-radius: 1.5rem;
+    box-shadow: 0 3px 10px black;
+}
+
+.container h2{
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 26px;
+    color:  rgb(97, 23, 167);
+}
+.container input{
+    padding: 10px;
+    user-select: none;
+    width: 400px;
+    border-radius: 10px;
+    border: solid 2px rgb(189, 117, 236);
+    outline: none;
+    font-size: 22px;
+    color:rgb(97, 23, 167) ;
+}
+
+#button{
+    font-size: 18px;
+    margin-top: 40px;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    border:2px solid rgb(189, 117, 236);
+    color: rgb(97, 23, 167);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+    transition: 0.2s ;
+}
+.btn2{
+    margin-left: 85px;
+}
+#button:hover{
+    border:2px solid rgb(97, 23, 167);
+    background:rgb(189, 117, 236);
+    box-shadow: 0 5px 5px rgb(97, 23, 167);
+}
+#button:active{
+    border:2px solid rgb(97, 23, 167);
+    background:white;
+    box-shadow: 0 0 0 rgb(97, 23, 167);
+}
+
+.length{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.length input{
+    width: 200px;
+
+}
